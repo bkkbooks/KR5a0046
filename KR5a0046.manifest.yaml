@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5a0046/v1
+canonical_location: https://kanripo.org/bkk/KR5a0046/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 太乙元真保命長生經
+  identifiers:
+    alt_id:
+    - DZ0046
+  date: '2015-08-28 23:35:20.256510'
+  source:
+    repository: kanripo
+    path: KR5a0046
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5a0046_000.yaml, hash: 'sha256:a56aee305b6d1b22e4a4147841f201411218ee481141550b29f327e7c379eb40'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5a0046_000.markers.yaml, hash: 'sha256:3c8ffea03ec59ff5387ae2f10db9b31bdead224a240341b57adcec5d98a0e694'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5a0046_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 600
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:1d1725b36d35b26f31262a109f5d4198fe50c65dfa3ce374c3d154c805f7f4de
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
